@@ -2,11 +2,11 @@
   "name": "Joseph Tang",
   "email": "chiheng.tang@epfl.ch",
   "github": "https://github.com/Joseph-Tang1",
-  "bio": "I am an undergraduate in Information Engineering at Southeast University and a visiting student in the LEAP laboratory at EPFL. My research centers on electromagnetic metasurfaces, near-field wave control, and machine learning for physical systems. I am interested in connecting computational design with measurements to build more capable sensing and wave-control devices.",
-  "experience_bio": "I was an exchange student and research assistant at the University of California, Berkeley in 2025, working on ultrasound sonochemistry in the Liwei Lin Lab. In July 2026, I joined the EUSC × AISE Research Track at CUHK-Shenzhen to study metasurface-assisted near-field localization. My other projects span spoof surface plasmon sensing, radar–vision gesture recognition, and AI-assisted near-field focusing.",
+  "bio": "I am an undergraduate at Southeast University majoring in Information Engineering. My research focuses on electromagnetics and photonics, sensor technologies and near-field sensing, and machine learning for physical systems. I am interested in combining computational design with experimental measurements to develop more capable sensing and wave-control devices.",
+  "experience_bio": "Before joining the LEAP laboratory at EPFL as a visiting student, I was an exchange student and research assistant at the University of California, Berkeley in 2025, working in the Liwei Lin Lab.",
   "interests": [
-    "Electromagnetic metasurfaces",
-    "Near-field sensing and wave control",
+    "Near-field sensing and wavefront control",
+    "Electromagnetics and photonics",
     "Machine learning for physical design"
   ],
   "education": [
@@ -23,7 +23,8 @@
       "school": "Department of Electrical Engineering and Computer Sciences",
       "degree": "Exchange Program",
       "date": "August–December 2025",
-      "logo": "/assets/img/institutions/uc-berkeley.png"
+      "logo": "/assets/img/institutions/uc-berkeley-seal.svg",
+      "logo_class": "berkeley-seal"
     },
     {
       "institution": "EPFL",
@@ -33,5 +34,7 @@
       "school_url": "https://www.epfl.ch/labs/leap/",
       "logo": "/assets/img/institutions/epfl.svg"
     }
-  ]
+  ],
+  "phone": "+1 5105296855",
+  "phone_e164": "+15105296855"
 }
