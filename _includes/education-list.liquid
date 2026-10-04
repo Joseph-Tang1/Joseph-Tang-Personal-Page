@@ -1,0 +1,11 @@
+{% for item in site.data.profile.education %}
+<div class="education-row education-entry">
+  <img class="institution-logo {{ item.logo_class }}" src="{{ item.logo | relative_url }}" alt="{{ item.institution }} logo" width="64" height="64" loading="lazy" decoding="async">
+  <div class="education-copy">
+    <h3>{{ item.institution }}</h3>
+    <p>{{ item.degree }}</p>
+    <p class="muted">{% if item.school_url %}<a href="{{ item.school_url }}">{{ item.school }}</a>{% else %}{{ item.school }}{% endif %}</p>
+  </div>
+  <span>{{ item.date }}</span>
+</div>
+{% endfor %}

@@ -27,6 +27,9 @@ The configured website URL is `https://Joseph-Tang1.github.io/Joseph-Tang-Person
 | Content | File |
 | --- | --- |
 | Biography, education, research interests | `_data/profile.json` |
+| Profile photograph | `assets/img/profile.jpeg` |
+| Institution logos | `assets/img/institutions/` |
+| Contact email | `_config.yml` and `_data/socials.yml` |
 | Project descriptions, images, captions | `_data/research.json` |
 | Homepage sections | `_pages/about.md` |
 | CV page | `_pages/cv.md` |
@@ -40,3 +43,5 @@ Each project keeps its images on the left on desktop. Arrow buttons cycle throug
 The site uses no analytics or private Google Drive links. The proposal and CV are served as local PDF files so readers do not need Drive access.
 
 See `TEMPLATE_ORIGIN.md` for upstream attribution. The original al-folio MIT license is preserved in `LICENSE`; project figures and CV material retain their original authorship.
+
+Institution logos identify the educational affiliations shown on this site and remain the property of their respective universities. The EPFL visiting affiliation links to the official [LEAP laboratory](https://www.epfl.ch/labs/leap/) website.

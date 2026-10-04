@@ -3,12 +3,12 @@ title: blank
 first_name: Joseph
 middle_name: ""
 last_name: Tang
-description: Joseph Tang — Information Engineering at Southeast University. Electromagnetic metasurfaces, near-field sensing and wave control, and machine learning for physical design.
+description: Joseph Tang — Information Engineering at Southeast University and visiting student at EPFL LEAP. Electromagnetic metasurfaces, near-field sensing and wave control, and machine learning for physical design.
 lang: en
 url: https://Joseph-Tang1.github.io
 baseurl: /Joseph-Tang-Personal-Page
 icon: favicon.svg
-email: joseph_tang@berkeley.edu
+email: chiheng.tang@epfl.ch
 keywords: Joseph Tang, electromagnetic metasurfaces, near-field localization, computational design
 theme: al_folio_core
 al_folio:

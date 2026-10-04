@@ -25,7 +25,10 @@ h1,h2,h3 { color:#303b3c; font-weight:400; }
 .intro-section h1 { font-family:Georgia,"Times New Roman",serif; font-size:62px; line-height:1.1; letter-spacing:-2.3px; margin:0 0 14px; }
 .intro-section h1 span { color:#55736b; }
 .intro-subtitle { font-size:20px; color:#687673; margin:0 0 30px; font-weight:300; }
-.intro-grid { display:grid; grid-template-columns:minmax(0,1fr) 225px; gap:64px; align-items:start; }
+.intro-grid { display:grid; grid-template-columns:minmax(0,1fr) 260px; gap:48px; align-items:start; }
+.intro-sidebar { min-width:0; }
+.profile-photo { margin:0 0 24px; }
+.profile-photo img { display:block; width:100%; height:auto; border-radius:3px; }
 .intro-copy p { margin:0 0 16px; font-size:15.5px; }
 .research-focus { border-left:2px solid #d7e2d9; padding:4px 0 5px 22px; margin-top:3px; }
 .research-focus h2 { font-size:12px; letter-spacing:1.15px; text-transform:uppercase; color:#64796f; margin:0 0 14px; font-weight:600; }
@@ -64,6 +67,11 @@ figcaption { font-size:11px; color:#647168; line-height:1.45; margin-top:11px; m
 .education-row h3 { font-size:16px; font-weight:500; margin:0 0 5px; }
 .education-row p { font-size:13px; margin:2px 0; }
 .education-row>span { flex-shrink:0; font-size:12px; color:#647168; }
+.education-entry { display:grid; grid-template-columns:64px minmax(0,1fr) auto; gap:24px; align-items:center; }
+.institution-logo { display:block; width:64px; height:64px; object-fit:contain; }
+.institution-logo.seu-logo { background:#386953; border-radius:50%; padding:6px; }
+.education-copy { min-width:0; }
+.education-entry>span { align-self:start; padding-top:3px; }
 .muted { color:#647168; }
 .contact-section { padding:46px 0 55px; }
 .contact-section p { font-size:14px; color:#647168; margin:12px 0 10px; }
@@ -103,3 +111,6 @@ dialog p { margin:15px 0 5px; }
 /* Clip only the original MTS photograph border; keep source pixels intact. */
 .figure-link.mts-crop img { width:auto; height:100%; max-width:100%; }
 .mts-crop img { clip-path:inset(1.5% 1.8% 1.4% 1.5%); transform:scale(1.034); }
+
+@media(max-width:800px) { .intro-grid { grid-template-columns:minmax(0,1fr) 230px; gap:32px; } .education-entry { grid-template-columns:56px minmax(0,1fr); gap:8px 18px; } .institution-logo { width:56px; height:56px; grid-row:1 / 3; align-self:start; } .education-entry>span { grid-column:2; margin:0; padding:0; } }
+@media(max-width:620px) { .intro-grid { display:flex; flex-direction:column; gap:26px; } .intro-sidebar { width:100%; display:contents; } .profile-photo { order:-1; width:100%; max-width:360px; margin:0; } .intro-copy { order:0; } .research-focus { order:1; margin-top:0; } .education-entry { display:grid; } }

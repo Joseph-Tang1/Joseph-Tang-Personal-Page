@@ -1,8 +1,8 @@
 {
   "name": "Joseph Tang",
-  "email": "joseph_tang@berkeley.edu",
+  "email": "chiheng.tang@epfl.ch",
   "github": "https://github.com/Joseph-Tang1",
-  "bio": "I am an undergraduate in Information Engineering at Southeast University. My research centers on electromagnetic metasurfaces, near-field wave control, and machine learning for physical systems. I am interested in connecting computational design with measurements to build more capable sensing and wave-control devices.",
+  "bio": "I am an undergraduate in Information Engineering at Southeast University and a visiting student in the LEAP laboratory at EPFL. My research centers on electromagnetic metasurfaces, near-field wave control, and machine learning for physical systems. I am interested in connecting computational design with measurements to build more capable sensing and wave-control devices.",
   "experience_bio": "I was an exchange student and research assistant at the University of California, Berkeley in 2025, working on ultrasound sonochemistry in the Liwei Lin Lab. In July 2026, I joined the EUSC × AISE Research Track at CUHK-Shenzhen to study metasurface-assisted near-field localization. My other projects span spoof surface plasmon sensing, radar–vision gesture recognition, and AI-assisted near-field focusing.",
   "interests": [
     "Electromagnetic metasurfaces",
@@ -15,13 +15,23 @@
       "school": "School of Information Science and Engineering",
       "degree": "Bachelor of Information Engineering",
       "date": "Expected September 2027",
-      "detail": "GPA 3.89/4.00 · Average score 90.9"
+      "logo": "/assets/img/institutions/southeast-university.png",
+      "logo_class": "seu-logo"
     },
     {
       "institution": "University of California, Berkeley",
       "school": "Department of Electrical Engineering and Computer Sciences",
       "degree": "Exchange Program",
-      "date": "August–December 2025"
+      "date": "August–December 2025",
+      "logo": "/assets/img/institutions/uc-berkeley.png"
+    },
+    {
+      "institution": "EPFL",
+      "school": "Laboratory for Advanced Electromagnetics and Photonics (LEAP)",
+      "degree": "Visiting Student",
+      "date": "4 October 2026–present",
+      "school_url": "https://www.epfl.ch/labs/leap/",
+      "logo": "/assets/img/institutions/epfl.svg"
     }
   ]
 }
