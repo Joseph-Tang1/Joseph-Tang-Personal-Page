@@ -43,7 +43,6 @@ description: Joseph Tang's academic homepage. Electromagnetics and photonics, ne
   </section>
   <section id="projects" class="projects-section" aria-labelledby="projects-title">
     <div class="section-heading"><h2 id="projects-title">Research projects</h2><span>2024–2026</span></div>
-    <p class="section-intro">Selected work in wave control, physical sensing, and learning-based systems.</p>
     {% include project-list.liquid %}
   </section>
 </div>

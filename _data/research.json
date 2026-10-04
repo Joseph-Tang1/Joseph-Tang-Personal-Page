@@ -4,13 +4,13 @@
     "short_title": "SSPP sensing",
     "title": "Metal Fatigue Crack and Corrosion NDE Based on Spoof Surface Plasmon Polaritons",
     "institution": "State Key Laboratory of Millimeter Waves",
-    "date": "Sep 2024–Mar 2026",
+    "date": "Sep 2024–Aug 2025",
     "role": "Research Project · Advisor: Prof. Chao Liu",
     "description": "I investigated spoof surface plasmon polaritons (SSPPs) for nondestructive evaluation of metallic surfaces. Using CST and multilayer perceptrons, I studied coupling structures that convert propagating waves into confined surface waves and designed a two-dimensional focusing structure.",
     "detail": "The work explored localized field enhancement with a spoof localized surface-plasmon resonator, including crack sensitivity and the influence of sensor lift-off.",
     "topics": [
       "Metasurfaces",
-      "Surface waves",
+      "Spoof SPPs",
       "Nondestructive evaluation"
     ],
     "figures": [
@@ -116,8 +116,7 @@
     "detail": "Prepared as an IEEE MTT-S scholarship application project; model training and validation are described as proposed work.",
     "topics": [
       "Near-field focusing",
-      "Surrogate modeling",
-      "Polarization control"
+      "Surrogate modeling"
     ],
     "proposal": "/assets/pdf/Near_Field_Focusing_Proposal.pdf",
     "figures": [
