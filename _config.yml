@@ -1,0 +1,94 @@
+# Joseph Tang's personal al-folio site
+title: blank
+first_name: Joseph
+middle_name: ""
+last_name: Tang
+description: Joseph Tang — Information Engineering at Southeast University. Electromagnetic metasurfaces, near-field sensing and wave control, and machine learning for physical design.
+lang: en
+url: https://Joseph-Tang1.github.io
+baseurl: /Joseph-Tang-Personal-Page
+icon: favicon.svg
+email: joseph_tang@berkeley.edu
+keywords: Joseph Tang, electromagnetic metasurfaces, near-field localization, computational design
+theme: al_folio_core
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+  features:
+    cv:
+      enabled: false
+    distill:
+      enabled: false
+  compat:
+    bootstrap:
+      enabled: false
+  upgrade:
+    channel: stable
+    auto_apply_safe_fixes: false
+plugins:
+  - al_folio_core
+  - al_folio_upgrade
+  - jekyll-cache-bust
+  - jekyll-email-protect
+  - jekyll-sitemap
+  - jekyll-socials
+max_width: 1032px
+navbar_fixed: false
+footer_fixed: false
+last_updated: false
+back_to_top: false
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
+protect_email: false
+serve_og_meta: true
+serve_schema_org: false
+enable_darkmode: false
+enable_math: false
+enable_masonry: false
+enable_medium_zoom: false
+enable_progressbar: false
+enable_tooltips: false
+enable_navbar_social: false
+enable_cookie_consent: false
+enable_project_categories: false
+enable_publication_thumbnails: false
+enable_google_verification: false
+enable_bing_verification: false
+external_sources: []
+collections: {}
+pagination:
+  enabled: false
+related_blog_posts:
+  enabled: false
+imagemagick:
+  enabled: false
+newsletter:
+  enabled: false
+third_party_libraries:
+  download: false
+  google_fonts:
+    url:
+      fonts: https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap
+include: [_pages]
+exclude: [AGENTS.md, CLAUDE.md, README.md, LICENSE, TEMPLATE_ORIGIN.md, CONTENT_NOTES.md, Gemfile, Gemfile.lock, package.json, package-lock.json, Dockerfile, docker-compose.yml, docker-compose-slim.yml, purgecss.config.js, requirements.txt, docs, bin, test, vendor, .bundle, .al-folio-overrides.yml, al-folio-upgrade-report.md, lighthouse_results, readme_preview]
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+sass:
+  style: compressed
+defaults:
+  - scope:
+      path: assets
+    values:
+      sitemap: false

@@ -1,0 +1,11 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="academic-header">
+  <nav class="academic-nav" aria-label="Main navigation">
+    <a class="site-name" href="{{ '/' | relative_url }}">Joseph <span>Tang</span></a>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}#about">About</a>
+      <a href="{{ '/' | relative_url }}#projects">Projects</a>
+      <a href="{{ '/cv/' | relative_url }}"{% if page.permalink == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+    </div>
+  </nav>
+</header>

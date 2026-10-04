@@ -1,0 +1,45 @@
+<div class="project-list">
+{% for project in site.data.research %}
+  <article class="research-project" id="{{ project.id }}">
+    <div class="project-gallery" data-gallery aria-label="{{ project.short_title | escape }} figures">
+      <div class="gallery-stage">
+      {% for figure in project.figures %}
+        <figure class="gallery-slide"{% unless forloop.first %} hidden{% endunless %}>
+          <a class="figure-link{% if figure.crop %} mts-crop{% endif %}" href="{{ figure.src | relative_url }}" data-zoom data-caption="{{ figure.caption | escape }}" aria-label="Enlarge: {{ figure.alt | escape }}">
+            <img src="{{ figure.src | relative_url }}" alt="{{ figure.alt | escape }}" loading="lazy" decoding="async" width="{{ figure.width }}" height="{{ figure.height }}">
+            <span class="zoom-hint" aria-hidden="true">View figure ↗</span>
+          </a>
+          <figcaption>{{ figure.caption }}</figcaption>
+        </figure>
+      {% endfor %}
+      </div>
+      {% if project.figures.size > 1 %}
+      <div class="gallery-controls" hidden>
+        <button type="button" class="gallery-prev" aria-label="Previous figure for {{ project.short_title | escape }}">←</button>
+        <span class="gallery-count" aria-live="polite">1 / {{ project.figures.size }}</span>
+        <button type="button" class="gallery-next" aria-label="Next figure for {{ project.short_title | escape }}">→</button>
+      </div>
+      <noscript><p class="figure-fallback">Additional figures:
+        {% for figure in project.figures offset:1 %}<a href="{{ figure.src | relative_url }}">{{ forloop.index | plus:1 }}</a> {% endfor %}
+      </p></noscript>
+      {% endif %}
+    </div>
+    <div class="project-copy">
+      <p class="project-meta">{{ project.institution }} <span>{{ project.date }}</span></p>
+      <h3>{{ project.title }}</h3>
+      <p class="project-role">{{ project.role }}</p>
+      <p>{{ project.description }}</p>
+      {% if project.detail %}<p>{{ project.detail }}</p>{% endif %}
+      <div class="project-topics" aria-label="Research topics">{% for topic in project.topics %}<span>{{ topic }}</span>{% endfor %}</div>
+      {% if project.proposal %}<a class="text-link proposal-link" href="{{ project.proposal | relative_url }}">Read the research proposal <span aria-hidden="true">↗</span><span class="file-format">PDF</span></a>{% endif %}
+    </div>
+  </article>
+{% endfor %}
+</div>
+<dialog id="figure-dialog" aria-label="Enlarged project figure">
+  <form method="dialog"><button class="dialog-close" aria-label="Close enlarged figure">Close ×</button></form>
+  <div class="dialog-image-wrap"><img id="dialog-image" alt=""></div>
+  <p id="dialog-caption"></p>
+  <a id="dialog-original" target="_blank" rel="noopener">Open original image ↗</a>
+</dialog>
+<script src="{{ '/assets/js/research.js' | relative_url }}" defer></script>

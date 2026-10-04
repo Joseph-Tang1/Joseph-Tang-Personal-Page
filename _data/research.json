@@ -1,0 +1,216 @@
+[
+  {
+    "id": "ultrasound-sonochemistry",
+    "short_title": "Ultrasound sonochemistry",
+    "title": "Ultrasound Sonochemistry by Weakening or Breaking Chemical Bonds",
+    "institution": "UC Berkeley · Liwei Lin Lab",
+    "date": "Aug–Dec 2025",
+    "role": "Research Assistant · Supervisor: Dr. Zihan Wang",
+    "description": "I worked on piezoelectric micromachined ultrasonic transducers (PMUTs) for ultrasound-driven chemical processes. My work combined device fabrication with Python-based beamforming on a TI TX7516 platform to concentrate acoustic pressure and investigate cavitation.",
+    "detail": "The project explored non-thermal release mechanisms and evaluated sonochemical activity using terephthalic-acid fluorescence measurements.",
+    "topics": [
+      "Ultrasound",
+      "PMUTs",
+      "Beamforming"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/research/berkeley-setup.jpg",
+        "caption": "PMUT drive electronics and experimental setup.",
+        "alt": "PMUT electronics and laboratory setup from the Berkeley research project",
+        "width": 1706,
+        "height": 1279,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/berkeley-beamforming.png",
+        "caption": "Acoustic pressure with in-phase and phase-focused excitation.",
+        "alt": "Comparison of in-phase and phase-focused acoustic pressure maps",
+        "width": 951,
+        "height": 1037,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/berkeley-sonochemistry.png",
+        "caption": "Ultrasound sonochemistry apparatus.",
+        "alt": "Labeled experimental ultrasound sonochemistry apparatus",
+        "width": 708,
+        "height": 534,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/berkeley-pmut.png",
+        "caption": "Detail of the PMUT array.",
+        "alt": "PMUT array from the self-introduction presentation",
+        "width": 364,
+        "height": 171,
+        "crop": false
+      }
+    ]
+  },
+  {
+    "id": "sspp-sensing",
+    "short_title": "SSPP sensing",
+    "title": "Metal Fatigue Crack and Corrosion NDE Based on Spoof Surface Plasmon Polaritons",
+    "institution": "State Key Laboratory of Millimeter Waves",
+    "date": "Sep 2024–Mar 2026",
+    "role": "Research Project · Advisor: Prof. Chao Liu",
+    "description": "I investigated spoof surface plasmon polaritons (SSPPs) for nondestructive evaluation of metallic surfaces. Using CST and multilayer perceptrons, I studied coupling structures that convert propagating waves into confined surface waves and designed a two-dimensional focusing structure.",
+    "detail": "The work explored localized field enhancement with a spoof localized surface-plasmon resonator, including crack sensitivity and the influence of sensor lift-off.",
+    "topics": [
+      "Metasurfaces",
+      "Surface waves",
+      "Nondestructive evaluation"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/research/sspp-focusing.png",
+        "caption": "Simulated field concentration in the SSPP focusing structure.",
+        "alt": "Electromagnetic field distribution in the SSPP focusing simulation",
+        "width": 1280,
+        "height": 720,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/sspp-unit-cell.png",
+        "caption": "Geometry of the metasurface unit cell.",
+        "alt": "Three-dimensional metasurface unit-cell model",
+        "width": 1690,
+        "height": 931,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/sspp-response.png",
+        "caption": "Unit-cell reflection response across the design space.",
+        "alt": "Reflection phase and amplitude response maps",
+        "width": 1400,
+        "height": 600,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/sspp-training.png",
+        "caption": "Training behavior of the learning-based design model.",
+        "alt": "Training and validation curves for the design model",
+        "width": 700,
+        "height": 500,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/sspp-dispersion.png",
+        "caption": "Dispersion characteristics of the surface-wave structure.",
+        "alt": "SSPP dispersion curves",
+        "width": 1200,
+        "height": 840,
+        "crop": false
+      }
+    ]
+  },
+  {
+    "id": "gesture-recognition",
+    "short_title": "Radar–vision gesture recognition",
+    "title": "Multi-source Gesture Recognition Technology for Intelligent Control Applications Based on Machine Learning",
+    "institution": "Purple Mountain Laboratories",
+    "date": "Sep 2024–Jun 2025",
+    "role": "Team Research Project · Advisor: Prof. Gang Xu",
+    "description": "Our team investigated radar–vision gesture recognition for intelligent control. The system brings together visual hand features and millimeter-wave radar representations in the time–frequency, range–angle, and range–Doppler domains.",
+    "detail": "My contributions focused on vision-processing code and hand-motion data collection, including real-time hand detection, tracking, and keypoint-based feature extraction.",
+    "topics": [
+      "Multimodal sensing",
+      "Computer vision",
+      "Machine learning"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/research/gesture-fig1.png",
+        "caption": "FMCW radar processing across range, Doppler, azimuth, and time–frequency domains.",
+        "alt": "Fig. 1: millimeter-wave radar signal-processing workflow",
+        "width": 3200,
+        "height": 2200,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/gesture-fig2.png",
+        "caption": "Visual hand detection and tracking pipeline.",
+        "alt": "Fig. 2: visual hand detection and tracking with MobileNetV2 and SSD",
+        "width": 5000,
+        "height": 2147,
+        "crop": false
+      }
+    ]
+  },
+  {
+    "id": "near-field-localization",
+    "short_title": "Near-field localization",
+    "title": "Near-Field Localization with Programmable Metasurfaces",
+    "institution": "CUHK-Shenzhen · EUSC × AISE",
+    "date": "Jul 2026",
+    "role": "Research Assistant, Summer Research Track · Supervisors: Dr. Kaiming Shen and Prof. Zhiquan Luo",
+    "description": "I extended the Blind Configuration Method from plane waves to exact spherical waves and developed a joint coherent matched-filter estimator for near-field localization. The work used programmable metasurfaces and received-power measurements to study how wavefront curvature affects position estimates.",
+    "detail": "I compared plane-wave, Fresnel, and exact spherical-wave models in simulation and on measured datasets, examining phase quantization, sign ambiguity, and the gap between simulation and experiment.",
+    "topics": [
+      "Near-field localization",
+      "Programmable metasurfaces",
+      "Statistical estimation"
+    ],
+    "figures": [
+      {
+        "src": "/assets/img/research/nf-layout.png",
+        "caption": "Geometry of the dual-metasurface localization setup.",
+        "alt": "fig_layout: two metasurface panels and transmitter positions",
+        "width": 2796,
+        "height": 1088,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/nf-localization.png",
+        "caption": "Simulation: localization errors across five random seeds.",
+        "alt": "fig_localization: simulated localization error comparison",
+        "width": 2094,
+        "height": 1378,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/nf-measured.png",
+        "caption": "Experiment: localization errors from 16 measured datasets.",
+        "alt": "fig_measured: measured-data localization errors",
+        "width": 2734,
+        "height": 2030,
+        "crop": false
+      },
+      {
+        "src": "/assets/img/research/nf-metasurface.png",
+        "caption": "Programmable metasurface used in the experimental setup.",
+        "alt": "Photograph of the programmable metasurface panel",
+        "width": 1146,
+        "height": 1142,
+        "crop": true
+      }
+    ]
+  },
+  {
+    "id": "near-field-focusing",
+    "short_title": "AI-assisted near-field focusing",
+    "title": "Near-Field Focusing via Multi-Dimensional Control Based on AI-Assisted Fast Synthesis",
+    "institution": "Purple Mountain Laboratories",
+    "date": "Mar 2026",
+    "role": "Research Proposal · Advisor: Assoc. Prof. Fan Wu",
+    "description": "This research proposal explores rapid near-field synthesis through joint control of array amplitude, phase, and polarization orientation. The proposed workflow uses full-wave CST simulations to train a forward surrogate, which then guides optimization of focal position, polarization, and sidelobe behavior.",
+    "detail": "Prepared as an IEEE MTT-S scholarship application project; model training and validation are described as proposed work.",
+    "topics": [
+      "Near-field focusing",
+      "Surrogate modeling",
+      "Polarization control"
+    ],
+    "proposal": "/assets/pdf/Near_Field_Focusing_Proposal.pdf",
+    "figures": [
+      {
+        "src": "/assets/img/research/near-field-focusing.jpg",
+        "caption": "Proposed offline training and online optimization workflow.",
+        "alt": "AI-assisted near-field focusing workflow from the original 1.jpg",
+        "width": 6875,
+        "height": 3992,
+        "crop": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "Joseph Tang",
+  "email": "joseph_tang@berkeley.edu",
+  "github": "https://github.com/Joseph-Tang1",
+  "bio": "I am an undergraduate in Information Engineering at Southeast University. My research centers on electromagnetic metasurfaces, near-field wave control, and machine learning for physical systems. I am interested in connecting computational design with measurements to build more capable sensing and wave-control devices.",
+  "experience_bio": "I was an exchange student and research assistant at the University of California, Berkeley in 2025, working on ultrasound sonochemistry in the Liwei Lin Lab. In July 2026, I joined the EUSC × AISE Research Track at CUHK-Shenzhen to study metasurface-assisted near-field localization. My other projects span spoof surface plasmon sensing, radar–vision gesture recognition, and AI-assisted near-field focusing.",
+  "interests": [
+    "Electromagnetic metasurfaces",
+    "Near-field sensing and wave control",
+    "Machine learning for physical design"
+  ],
+  "education": [
+    {
+      "institution": "Southeast University",
+      "school": "School of Information Science and Engineering",
+      "degree": "Bachelor of Information Engineering",
+      "date": "Expected September 2027",
+      "detail": "GPA 3.89/4.00 · Average score 90.9"
+    },
+    {
+      "institution": "University of California, Berkeley",
+      "school": "Department of Electrical Engineering and Computer Sciences",
+      "degree": "Exchange Program",
+      "date": "August–December 2025"
+    }
+  ]
+}
